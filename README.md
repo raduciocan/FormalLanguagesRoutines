@@ -1,4 +1,4 @@
-# FormalLanguagesRoutinesLauncher
+# FormalLanguagesRoutines
 A centralized hub containing programs for custom grammar derivation, generation and interpretation.
 
 The application features dedicated console GUIs for each subroutine (programs) contained.
