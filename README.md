@@ -35,7 +35,7 @@ unui cuvant si in caz afirmativ se reia procesul;
 Metode subrutina:
   1. citire()
   2. afisare()
-  3. derivare()
+  3. derivare(propozitie)
 
 
 ### II. Generative grammar scheme:
@@ -78,3 +78,7 @@ Metode subrutina:
   3. verificare(cuvant)
 
 
+  
+  ## TO-DO:
+  - [ ] [Improve error handling and file operations](https://github.com/raduhammer/FormalLanguagesRoutines/issues/1)
+  - [ ] [Add proper GUI using JavaFX](https://github.com/raduhammer/FormalLanguagesRoutines/issues/2)
