@@ -6,11 +6,10 @@ The application features dedicated console GUIs for each subroutine (programs) c
 The application implements the factory creational design pattern for handling a variable number of subroutines, as well as builder design pattern for initializing the data
 model for each of it's subroutine in a final (get-only) state, in accordance with the proper object-oriented practices.
 
-Additionaly, each specialized view implements a baseline view interface, which is extended to accomodate the different options that each subroutine requires for the proper testing of its features. Specialised vies are imnplemented as lasy singletons, due to only requiring one unique instance for each subroutine, if and only if that subroutine exists and has been properly initialised.
-The factory class is also of eager initialization singleton type, due to always requiring one unique instance whenever the Main metthod is ran.
+Additionaly, each specialized view implements a baseline view interface, which is extended to accomodate the different options that each subroutine requires for the proper testing of its features. Specialised views are imnplemented as lasy singletons, due to only requiring one unique instance for each subroutine, if and only if that subroutine exists and has been properly initialised.
+The factory class is also a singleton, eager initialisation type, due to always requiring one unique instance whenever the Main method is ran.
 The factory design pattern allows us to quickly test different implementations of methods used in the creation process and handling of the subroutines, as well as providing a sistematic logical way of expanding the master program functionality with additional subroutines.
-The builder design patterns helps divide the complexity of each subroutine into smaller modules, each ith its own responsibility.
-The subroutines class constructor is private, and only accessible by the builder, which together with the subroutine-unique builder helpers constructs each subroutine with the corresponding data properly formatted for that subroutine by the implemented fileManager class.
+The builder design patterns helps divide the complexity of the primary class from each subroutine into 2 smaller modules, each having its own responsibility (the data-containing class and builder class). The subroutines core class constructor is private, and only accessible by the builder, which together with the subroutine-unique helpers (working as a bridge between builders and fileHandlers), constructs each subroutine with the corresponding data properly formatted for that subroutine by the implemented fileManager.
 
 
 ## CURRENT AVAILABLE SUBROUTINES:
