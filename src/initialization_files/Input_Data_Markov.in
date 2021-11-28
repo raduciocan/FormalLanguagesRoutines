@@ -1,0 +1,7 @@
+ABSTapplebagshopthe  my brother the shop never used .T terminating rule
+A->apple
+B->bag
+S->shop
+T->the
+the shop->my brother
+never used->.T terminating rule
