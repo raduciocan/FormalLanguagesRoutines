@@ -16,7 +16,7 @@ The subroutines class constructor is private, and only accessible by the builder
 ## CURRENT AVAILABLE SUBROUTINES:
 
 
-### I. Markov Derivator scheme:
+### I. Markov Derivator program:
 
 Un algoritm normal in sens Markov este un sistem de rescriere SR = (V,F) unde elementele lui F
 sunt date intr-o anumita ordine si exista o submultime, posibil vida, F1 ≤ F continand reguli sau
@@ -38,7 +38,7 @@ Metode subrutina:
   3. derivare(propozitie)
 
 
-### II. Generative grammar scheme:
+### II. Generative grammar program:
 
 Implmentare gramatica generativa: se citesc din fișier elementele componente
 VN, VT, simbolul de start și producțiile (regulile de generare). Se citește de la tastatură un număr n, iar apoi se
@@ -59,7 +59,7 @@ Metode subrutina:
   4. generare()
 
 
-### III. Finite deterministic automaton scheme:
+### III. Finite deterministic automaton program:
 
 Un AFD este este un 5-uplu A=(Q, Σ, δ, q0, F), in care:
 Q este o multime finita de stari
