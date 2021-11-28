@@ -82,3 +82,6 @@ Metode subrutina:
   ## TO-DO:
   - [ ] [Improve error handling and file operations](https://github.com/raduhammer/FormalLanguagesRoutines/issues/1)
   - [ ] [Add proper GUI using JavaFX](https://github.com/raduhammer/FormalLanguagesRoutines/issues/2)
+  - [ ] [Add subroutine initialization files guidelines](https://github.com/raduhammer/FormalLanguagesRoutines/issues/4)
+  - [ ] [Fix the initial commit description disaster](https://github.com/raduhammer/FormalLanguagesRoutines/issues/3)
+  - [ ] I should also fix the remaining romgleza ramasa prin README :)
